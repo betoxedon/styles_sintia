@@ -1,1 +1,1 @@
-# agent styles sintia
+# sintia style agent
