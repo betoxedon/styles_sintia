@@ -1,1 +1,1 @@
-# sintia style agent
+# sintia handler agent css
