@@ -7,7 +7,7 @@
    import MonoSend from './MonoSend.vue'
    import { getAgentFirestore } from './services/handleFirebaseFirestore'
 
-   const agentId = ref('68yvyXwMLJbgVina3GK0') // docId do agente a ser exibido
+   const agentId = ref('') // docId do agente a ser exibido
    const agentActive = ref({} as Agent)
 
    const today = new Date().toLocaleString('pt-BR', {
