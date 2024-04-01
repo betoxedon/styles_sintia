@@ -1,0 +1,49 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+   strong {
+      @apply font-bold;
+   }
+
+   svg {
+      @apply h-6 w-6 shrink-0;
+   }
+
+   input {
+      @apply text-lg font-light maxw:text-xl;
+   }
+
+   span {
+      @apply block text-base text-onsurface-30 maxw:text-lg;
+   }
+
+   ::placeholder {
+      @apply text-lg font-light maxw:text-xl;
+   }
+
+   .agent-default {
+      @apply fixed bottom-5 max-h-[100vh] w-[100vh] max-w-[326px];
+   }
+}
+
+@keyframes showShowIn {
+   from {
+      opacity: 0;
+   }
+   to {
+      opacity: 1;
+   }
+}
+
+.show-in {
+   animation-name: showShowIn;
+   animation-duration: 2s;
+   animation-fill-mode: forwards;
+   animation-delay: 0.5s;
+}
+
+.chat-balloon.show-in {
+   animation-delay: 2s;
+}
