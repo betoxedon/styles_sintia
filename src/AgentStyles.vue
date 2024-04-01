@@ -76,7 +76,7 @@
       :style="screenSideStyle">
       <div v-if="showChatDialog" class="chat-main show-in grid content-end">
          <div
-            class="grid w-full grid-rows-[min-content_minmax(0px,_480px)] overflow-hidden rounded-xl border border-slate-200 shadow-lg"
+            class="grid w-full grid-rows-[min-content_minmax(0px,_480px)] overflow-hidden rounded-xl"
             :style="agentActive.fontFamilyStyle">
             <div
                class="flex min-h-[74px] flex-col py-4 pl-5 pr-3"
